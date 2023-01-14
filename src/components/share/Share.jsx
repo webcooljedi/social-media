@@ -13,7 +13,7 @@ const Share = () => {
       <div className="container">
         <div className="top">
           <img
-            src={currentUser.profilePic}
+            src='https://i.postimg.cc/YCGdgvBT/crop.jpg'
             alt=""
           />
           <input type="text" placeholder={`What's on your mind ${currentUser.name}?`} />

@@ -8,12 +8,9 @@ export const AuthContextProvider = ({ children }) => {
   );
 
   const login = () => {
-    //TO DO
     setCurrentUser({
       id: 1,
       name: "John Doe",
-      profilePic:
-        "https://i.postimg.cc/YCGdgvBT/crop.jpg",
     });
   };
 
