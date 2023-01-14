@@ -37,10 +37,7 @@ function App() {
   };
 
   const ProtectedRoute = ({ children }) => {
-    if (!currentUser) {
-      return <Navigate to="/" />;
-    }
-
+    
     return children;
   };
 
